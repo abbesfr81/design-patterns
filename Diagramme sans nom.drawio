@@ -5,16 +5,16 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="oJcENl2pb20OilhTYxAR-1" value="&amp;lt;&amp;lt;&amp;nbsp;Abstract &amp;gt;&amp;gt;&lt;div&gt;Control&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="10" width="160" height="174" as="geometry" />
+          <mxGeometry x="310" y="10" width="210" height="174" as="geometry" />
         </mxCell>
         <mxCell id="oJcENl2pb20OilhTYxAR-2" value="# valeur: String;&lt;div&gt;# directeur: Formulaire&lt;/div&gt;&lt;div&gt;# nom: String&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="oJcENl2pb20OilhTYxAR-1">
-          <mxGeometry y="40" width="160" height="64" as="geometry" />
+          <mxGeometry y="40" width="210" height="64" as="geometry" />
         </mxCell>
         <mxCell id="oJcENl2pb20OilhTYxAR-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="oJcENl2pb20OilhTYxAR-1">
-          <mxGeometry y="104" width="160" height="8" as="geometry" />
+          <mxGeometry y="104" width="210" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="oJcENl2pb20OilhTYxAR-4" value="+ getValeur(): String&lt;div&gt;+ getDirecteur(): Formulaire&lt;/div&gt;&lt;div&gt;+ getNom(): String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="oJcENl2pb20OilhTYxAR-1">
-          <mxGeometry y="112" width="160" height="62" as="geometry" />
+        <mxCell id="oJcENl2pb20OilhTYxAR-4" value="+ getValeur(): String void&lt;div&gt;+ getDirecteur(): Formulaire void&lt;/div&gt;&lt;div&gt;+ getNom(): String void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="oJcENl2pb20OilhTYxAR-1">
+          <mxGeometry y="112" width="210" height="62" as="geometry" />
         </mxCell>
         <mxCell id="oJcENl2pb20OilhTYxAR-5" value="Formulaire" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="320" width="160" height="86" as="geometry" />
@@ -44,7 +44,7 @@
         <mxCell id="oJcENl2pb20OilhTYxAR-14" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="oJcENl2pb20OilhTYxAR-12">
           <mxGeometry y="52" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="oJcENl2pb20OilhTYxAR-15" value="+ ZoneSaisie(reader)&lt;div&gt;+ saisie()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="oJcENl2pb20OilhTYxAR-12">
+        <mxCell id="oJcENl2pb20OilhTYxAR-15" value="+ ZoneSaisie(reader)&lt;div&gt;+ saisie() : void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="oJcENl2pb20OilhTYxAR-12">
           <mxGeometry y="60" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="oJcENl2pb20OilhTYxAR-17" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-weight: 400; font-stretch: normal; font-size: 14px; line-height: normal; font-family: Courier; text-align: start;&quot; class=&quot;p1&quot;&gt;Bouton&lt;/p&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeWidth=0;fontSize=14;" vertex="1" parent="1">
@@ -56,7 +56,7 @@
         <mxCell id="oJcENl2pb20OilhTYxAR-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="oJcENl2pb20OilhTYxAR-17">
           <mxGeometry y="52" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="oJcENl2pb20OilhTYxAR-20" value="+&amp;nbsp;&lt;span style=&quot;font-family: Courier; font-size: 14px;&quot;&gt;Bouton&lt;/span&gt;(nom:String)&lt;div&gt;+ saisie()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="oJcENl2pb20OilhTYxAR-17">
+        <mxCell id="oJcENl2pb20OilhTYxAR-20" value="+&amp;nbsp;&lt;span style=&quot;font-family: Courier; font-size: 14px;&quot;&gt;Bouton&lt;/span&gt;(nom:String)&lt;div&gt;+ saisie() void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="oJcENl2pb20OilhTYxAR-17">
           <mxGeometry y="60" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="oJcENl2pb20OilhTYxAR-24" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;exitX=0.212;exitY=0.012;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="oJcENl2pb20OilhTYxAR-17">
@@ -65,17 +65,22 @@
             <mxPoint x="410" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="oJcENl2pb20OilhTYxAR-31" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=blockThin;endFill=0;endSize=20;" edge="1" parent="1" source="oJcENl2pb20OilhTYxAR-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="oJcENl2pb20OilhTYxAR-25" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-weight: 400; font-stretch: normal; font-size: 13px; line-height: normal; font-family: Courier; text-align: start;&quot; class=&quot;p1&quot;&gt;PopupMenu&lt;/p&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeWidth=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="570" y="420" width="220" height="150" as="geometry" />
+          <mxGeometry x="550" y="420" width="230" height="150" as="geometry" />
         </mxCell>
         <mxCell id="oJcENl2pb20OilhTYxAR-26" value="# options: List&amp;lt;String&amp;gt;&lt;div&gt;# reader: Scanner&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="oJcENl2pb20OilhTYxAR-25">
-          <mxGeometry y="26" width="220" height="44" as="geometry" />
+          <mxGeometry y="26" width="230" height="44" as="geometry" />
         </mxCell>
         <mxCell id="oJcENl2pb20OilhTYxAR-27" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="oJcENl2pb20OilhTYxAR-25">
-          <mxGeometry y="70" width="220" height="8" as="geometry" />
+          <mxGeometry y="70" width="230" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="oJcENl2pb20OilhTYxAR-28" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;font-family: Courier;&quot;&gt;PopupMenu&lt;/span&gt;(nom:String)&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;+ saisie()&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal; font-family: Courier;&quot; class=&quot;p1&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;+ ajouteOption(option:String)&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="oJcENl2pb20OilhTYxAR-25">
-          <mxGeometry y="78" width="220" height="72" as="geometry" />
+        <mxCell id="oJcENl2pb20OilhTYxAR-28" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;+&amp;nbsp;&amp;nbsp;&lt;span style=&quot;font-family: Courier;&quot;&gt;PopupMenu&lt;/span&gt;(nom:String)&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;+&amp;nbsp; saisie(). void&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal;&quot; class=&quot;p1&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;font face=&quot;Courier&quot;&gt;+&amp;nbsp;&lt;/font&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ajouteOption(option:String)&amp;nbsp; void&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="oJcENl2pb20OilhTYxAR-25">
+          <mxGeometry y="78" width="230" height="72" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
