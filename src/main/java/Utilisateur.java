@@ -4,9 +4,8 @@
  */
 package main.java;
 
-import main.java.memento.ChariotOption;
-import main.java.memento.Memento;
-import main.java.memento.OptionVehicule;
+import main.java.observer.Vehicule;
+import main.java.observer.VueVehicule;
 
 /**
  *
@@ -32,7 +31,8 @@ public class Utilisateur {
                 "Prénom du coemprunteur"));
         formulaire.saisie(); */
 
-        Memento memento;
+        // pattern momento
+        /*  Memento memento;
         OptionVehicule option1 = new OptionVehicule("Sièges en cuir");
         OptionVehicule option2 = new OptionVehicule("Accoudoirs");
         OptionVehicule option3 = new OptionVehicule("Sièges sportifs");
@@ -46,5 +46,19 @@ public class Utilisateur {
         chariotOptions.affiche();
         chariotOptions.annule(memento);
         chariotOptions.affiche();
+         */
+        // pattern observer
+        Vehicule vehicule = new Vehicule();
+        vehicule.setDescription("Véhicule bon marché");
+        vehicule.setPrix(5000.0);
+        VueVehicule vueVehicule = new VueVehicule(vehicule);
+        vueVehicule.affiche();
+        vehicule.setPrix(4500.0);
+        vueVehicule.affiche();
+        VueVehicule vueVehicule2 = new VueVehicule(vehicule);
+        vehicule.setPrix(5500.0);
+        vueVehicule.affiche();
+        vueVehicule2.affiche();
+
     }
 }
