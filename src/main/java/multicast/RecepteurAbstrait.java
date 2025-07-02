@@ -1,6 +1,7 @@
 package multicast;
 
-public interface RecepteurAbstrait<TMessage extends MessageAbstrait>
-{
-public void recoit(TMessage message);
+public interface RecepteurAbstrait<TMessage extends MessageAbstrait> {
+
+    public void recoit(TMessage message);
+
 }

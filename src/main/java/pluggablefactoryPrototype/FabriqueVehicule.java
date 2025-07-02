@@ -1,4 +1,4 @@
-package pluggablefactory;
+package pluggablefactoryPrototype;
 
 public class FabriqueVehicule {
     protected Automobile prototypeAutomobile;

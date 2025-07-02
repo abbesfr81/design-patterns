@@ -7,7 +7,7 @@ public class SocieteSansFiliale extends Societe {
     }
 
     public void accepteVisiteur(Visiteur visiteur) {
-        visiteur.VisiteSocieteSansFiliale(this);
+        visiteur.visiteSocieteSansFiliale(this);
     }
 
     public boolean ajouteFiliale(Societe filiale) {

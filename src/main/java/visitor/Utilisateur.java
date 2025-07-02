@@ -2,6 +2,7 @@ package visitor;
 
 public class Utilisateur {
     public static void main(String[] args) {
+        // visitor :
         Societe societe1 = new SocieteSansFiliale("société1",
                 "info@societe1.com", "rue de la société 1");
         Societe societe2 = new SocieteSansFiliale("société2",

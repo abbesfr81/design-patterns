@@ -1,14 +1,15 @@
-package pluggablefactory;
+package pluggablefactoryPrototype;
 
-public abstract class Scooter implements Cloneable {
+public abstract class Automobile implements Cloneable {
     protected String modele;
     protected String couleur;
     protected int puissance;
+    protected double espace;
 
-    public Scooter duplique() {
-        Scooter resultat;
+    public Automobile duplique() {
+        Automobile resultat;
         try {
-            resultat = (Scooter) this.clone();
+            resultat = (Automobile) this.clone();
         } catch (CloneNotSupportedException exception) {
             return null;
         }
@@ -37,6 +38,14 @@ public abstract class Scooter implements Cloneable {
 
     public void setPuissance(int puissance) {
         this.puissance = puissance;
+    }
+
+    public double getEspace() {
+        return espace;
+    }
+
+    public void setEspace(double espace) {
+        this.espace = espace;
     }
 
     public abstract void afficheCaracteristiques();

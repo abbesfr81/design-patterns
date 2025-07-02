@@ -1,4 +1,4 @@
-package pluggablefactory;
+package pluggablefactoryPrototype;
 
 public class Test {
     public static void main(String[] args) {

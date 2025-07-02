@@ -1,4 +1,4 @@
-package pluggablefactory;
+package pluggablefactoryPrototype;
 
 public class ScooterEssence extends Scooter {
     public void afficheCaracteristiques() {

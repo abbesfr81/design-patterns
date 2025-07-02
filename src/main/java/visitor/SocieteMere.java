@@ -11,7 +11,7 @@ public class SocieteMere extends Societe {
     }
 
     public void accepteVisiteur(Visiteur visiteur) {
-        visiteur.VisiteSocieteMere(this);
+        visiteur.visiteSocieteMere(this);
         for (Societe filiale : filiales)
             filiale.accepteVisiteur(visiteur);
     }

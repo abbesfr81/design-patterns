@@ -1,4 +1,4 @@
-package pluggablefactory;
+package pluggablefactoryPrototype;
 
 public class AutomobileElectricite extends Automobile {
     public void afficheCaracteristiques() {
