@@ -15,3 +15,30 @@ The Flyweight pattern is a structural design pattern that allows programs to sup
 - **Client**: Maintains references to flyweight objects and computes or stores extrinsic state.
 
 ## Example (Java)
+
++-------------------+
+|   Flyweight       |<-------------------+
++-------------------+                    |
+| +operation(state) |                    |
++-------------------+                    |
+       ^                             |
+       |                             |
++-----------------------+                |
+| ConcreteFlyweight     |                |
++-----------------------+                |
+| -intrinsicState       |                |
+| +operation(state)     |                |
++-----------------------+                |
+                     |
++-----------------------+                |
+| FlyweightFactory      |----------------+
++-----------------------+
+| -flyweights: Map      |
+| +getFlyweight(key)    |
++-----------------------+
+
++-----------------------+
+| Client                |
++-----------------------+
+| -extrinsicState       |
++-----------------------+
