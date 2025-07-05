@@ -1,0 +1,17 @@
+# Flyweight Pattern
+
+The Flyweight pattern is a structural design pattern that allows programs to support a large number of fine-grained objects efficiently by sharing common parts of their state.
+
+## Intent
+
+- Minimize memory usage by sharing as much data as possible with similar objects.
+- Useful when many objects must be created that share common data.
+
+## Structure
+
+- **Flyweight**: Interface for flyweight objects.
+- **ConcreteFlyweight**: Implements the Flyweight interface and adds storage for intrinsic state.
+- **FlyweightFactory**: Creates and manages flyweight objects, ensuring sharing.
+- **Client**: Maintains references to flyweight objects and computes or stores extrinsic state.
+
+## Example (Java)
