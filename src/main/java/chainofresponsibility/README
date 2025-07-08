@@ -1,0 +1,36 @@
+The Chain of Responsibility pattern is a behavioral design pattern that allows an object to pass a request along a chain of handlers. Each handler can either process the request or pass it to the next handler in the chain.
+
+Key Points:
+
+Decouples sender and receiver of a request.
+Each handler decides either to handle the request or to pass it on.
+Useful for scenarios like logging, authentication, or event handling.
+
+Here’s a simple UML class diagram for the Chain of Responsibility pattern: 
++----------------+        +---------------------+
+|   Client       |        |     Handler         |
++----------------+        +---------------------+
+        |                 | - next: Handler     |
+        |                 +---------------------+
+        |                 | +setNext(Handler)   |
+        |                 | +handle(Request)    |
+        |                 +---------------------+
+        |                          ^
+        |                          |
+        |                +----------------------+
+        |                |  ConcreteHandlerA    |
+        |                +----------------------+
+        |                | +handle(Request)     |
+        |                +----------------------+
+        |                          ^
+        |                +----------------------+
+        |                |  ConcreteHandlerB    |
+        |                +----------------------+
+        |                | +handle(Request)     |
+        |                +----------------------+
+
+
+When to use it:
+“It’s particularly useful when you have a system with multiple potential handlers for a request, 
+and you want to decouple the sender from the actual receiver. Instead 
+of using multiple if/else or switch statements, you delegate the responsibility across a chain.”
