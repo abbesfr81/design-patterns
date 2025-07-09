@@ -1,0 +1,50 @@
+The Command pattern is a behavioral design pattern that turns a request into a 
+stand-alone object containing all information about the request. 
+This allows you to parameterize methods with different requests, 
+delay or queue requests, and support undoable operations.
+
+Key Points:
+
+     Encapsulates a request as an object.
+     Decouples the sender of a request from its receiver.
+     Supports operations like undo/redo, logging, and transaction management.
+     Useful for implementing menus, buttons, or macro recording in GUIs.
+
+
+
+## Structure
++----------------+         +-------------------+
+|    Client      |         |   Command         |<-------------------+
++----------------+         +-------------------+                    |
+        |                  | +execute()        |                    |
+        |                  +-------------------+                    |
+        |                          ^                                 |
+        |                          |                                 |
+        |                +---------------------+                     |
+        |                | ConcreteCommand     |                     |
+        |                +---------------------+                     |
+        |                | - receiver:Receiver |                     |
+        |                | +execute()          |                     |
+        |                +---------------------+                     |
+        |                          |                                 |
+        |                          |                                 |
+        |                  +----------------+                        |
+        |                  |  Receiver      |------------------------+
+        |                  +----------------+
+        |                  | +action()      |
+        |                  +----------------+
+        |
+        |                  +----------------+
+        |                  | Invoker        |
+        |                  +----------------+
+        |                  | +setCommand()  |
+        |                  | +execute()     |
+        |                  +----------------+
+
+Legend:
+
+Command is an interface with an execute() method.
+ConcreteCommand implements Command and calls actions on the Receiver.
+Invoker holds a command and triggers its execution.
+Client creates the command and sets it in the invoker.
+Receiver knows how to perform the operations.
