@@ -1,0 +1,22 @@
+package interpretor;
+
+public class MotCle extends Expression {
+
+    protected String motCle;
+
+    public MotCle(String motCle) {
+        this.motCle = motCle;
+    }
+
+    public boolean evalue(String description) {
+        return description.indexOf(motCle) != - 1;
+    }
+// partie analyse syntaxique
+
+    static public Expression parse() throws Exception {
+        Expression resultat;
+        resultat = new MotCle(jeton);
+        prochainJeton();
+        return resultat;
+    }
+}
