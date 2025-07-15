@@ -12,8 +12,7 @@ public class Catalogue {
         FabriqueVehicule fabrique;
         Automobile[] autos = new Automobile[nbAutos];
         Scooter[] scooters = new Scooter[nbScooters];
-        System.out.print("Voulez-vous utiliser des "
-                + "Véhicules électriques (1) ou à essence (2) :");
+        System.out.print("Voulez-vous utiliser des " + "Véhicules électriques (1) ou à essence (2) :");
         String choix = reader.next();
         if (choix.equals("1")) {
             fabrique = new FabriqueVehiculeElectricite();

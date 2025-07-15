@@ -15,7 +15,7 @@ public class LiasseVierge extends Liasse {
     private static LiasseVierge _instance = null;
 
     private LiasseVierge() {
-        documents = new ArrayList<Document>();
+        documents = new ArrayList<>();
     }
 
     public static LiasseVierge Instance() {
