@@ -11,12 +11,13 @@ public class ComposantCatalogue implements Catalogue {
         "Coupé 2 portes", 9000, "Utilitaire 3 portes", 5000
     };
 
+    @Override
     public List<String> retrouveVehicules(int prixMin, int prixMax) {
         int index, taille;
-        List<String> resultat = new ArrayList<String>();
+        List<String> resultat = new ArrayList<>();
         taille = descriptionsVehicule.length / 2;
         for (index = 0; index < taille; index++) {
-            int prix = ((Integer) descriptionsVehicule[2 * index + 1]).intValue();
+            int prix = ((Integer) descriptionsVehicule[2 * index + 1]);
             if ((prix >= prixMin) && (prix <= prixMax)) {
                 resultat.add((String) descriptionsVehicule[2 * index]);
             }
